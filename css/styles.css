@@ -1,0 +1,222 @@
+:root {
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --logo-text-color: #000000;
+  --accent-color: #2196f3;
+  --active-button-color: #188CE8;
+  --white-text-color: #ffffff;
+  --main-background-color: #FFFFFF;
+  --background-portfolio-projects-item:#EEEEEE;
+  --background-color-our-team-section: #F5F4FA;
+  --footer-contacts-text-color: rgba(255, 255, 255, 0.6);
+  --background-color-footer: #2F303A;
+  --line-header-color:#ECECEC;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/* Header styles */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.logo-header {
+  color: var(--logo-text-color);
+}
+
+.nav-item {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.header-contacts-item {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.header-contacts-item:hover,
+.header-contacts-item:focus {
+  color: var(--accent-color);
+}
+
+/* Hero styles */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus{
+  background-color: var(--active-button-color);
+}
+
+/* Features styles */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features-subtitle {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.features-descr {
+  line-height: 1.71;
+}
+
+/* Work styles */
+
+.work-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+/* Our team styles */
+.our-team {
+  background-color: var(--background-color-our-team-section);
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+.team-profession {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/*  Footer styles */
+
+.footer-section {
+  background-color: var(--background-color-footer);
+}
+.logo-footer {
+  color: var(--white-text-color);
+}
+
+.address-item.link {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--white-text-color);
+}
+
+.address-item.link:hover,
+.address-item.link:focus {
+  color: var(--accent-color);
+}
+.footer-contacts-item.link {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--footer-contacts-text-color);
+}
+
+.footer-contacts-item.link:hover,
+.footer-contacts-item.link:focus {
+  color: var(--accent-color);
+}
+
+/* Portfolio styles */
+
+.button-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  cursor: pointer;
+  background: #f5f4fa;
+}
+
+.button-item:hover,
+.button-item:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+.project-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
+}
