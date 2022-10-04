@@ -28,6 +28,30 @@ body {
 .list {
   list-style-type: none;
 }
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+}
+
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* outline: 2px solid green; */
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3, 
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 /* Header styles */
 
@@ -70,11 +94,19 @@ body {
 .header-contacts-item:focus {
   color: var(--accent-color);
 }
+.header{
+  border-bottom: 1px solid var(--line-header-color);
+}
 
 /* Hero styles */
 
 .hero {
   background-color: #2f303a;
+  min-height: 600px;
+}
+.hero.section{
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -85,6 +117,13 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text-color);
+  margin-bottom: 30px;
+  min-height: 120px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+   outline: 2px solid green;
+
 }
 
 .hero-button {
@@ -96,6 +135,12 @@ body {
   color: var(--white-text-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .hero-button:hover,
@@ -124,10 +169,15 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-text-color);
+  margin-bottom: 10px;
 }
 
 .features-descr {
   line-height: 1.71;
+}
+
+.features-item {
+  width: 270px;
 }
 
 /* Work styles */
@@ -138,6 +188,7 @@ body {
   line-height: 1.17;
   text-align: center;
   color: var(--secondary-text-color);
+  margin-bottom: 50px;
 }
 
 /* Our team styles */
