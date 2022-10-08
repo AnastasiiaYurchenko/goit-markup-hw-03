@@ -234,7 +234,7 @@ img {
 }
 
 .features-item {
-  width: calc((100%-90px) / 4);
+  width: calc((100% - 90px) / 4);
 }
 .features-list {
   display: flex;
